@@ -26,5 +26,34 @@ This project is a REST API built using Spring Boot for managing products with CR
 | GET | /products/{id} | Get product by ID |
 | DELETE | /products/{id} | Delete product |
 
+
+
+## Example API Requests
+
+### Add Product
+
+POST /products
+
+Request Body (JSON)
+
+{
+  "name": "Laptop",
+  "price": 55000,
+  "quantity": 5
+}
+
+### Get All Products
+
+GET /products
+
+### Get Product By ID
+
+GET /products/1
+
+### Delete Product
+
+DELETE /products/1
+
+
 ## Author
 **Bhanu Lingampalli**
