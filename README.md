@@ -2,10 +2,9 @@
 Spring Boot REST API for Product Management with CRUD operations using JPA and MySQL
 # Spring Boot Product CRUD API
 
-This project is a REST API built using Spring Boot for managing products.
+This project is a REST API built using Spring Boot for managing products with CRUD operations.
 
 ## Technologies Used
-
 - Java
 - Spring Boot
 - Spring Data JPA
@@ -13,19 +12,19 @@ This project is a REST API built using Spring Boot for managing products.
 - Maven
 
 ## Features
-
 - Add Product
-- View Products
-- Get Product by ID
+- View All Products
+- Get Product By ID
 - Delete Product
 
 ## API Endpoints
 
-GET /products  
-POST /products  
-GET /products/{id}  
-DELETE /products/{id}
+| Method | Endpoint | Description |
+|------|------|------|
+| GET | /products | Get all products |
+| POST | /products | Add a new product |
+| GET | /products/{id} | Get product by ID |
+| DELETE | /products/{id} | Delete product |
 
 ## Author
-
-Bhanu Lingampalli
+**Bhanu Lingampalli**
